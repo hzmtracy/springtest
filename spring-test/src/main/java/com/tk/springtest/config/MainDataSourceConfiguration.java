@@ -44,7 +44,7 @@ public class MainDataSourceConfiguration {
     public SqlSessionFactory mainSqlSessionFactory(@Qualifier("mainDataSource") DataSource mainDataSource) throws Exception {
         SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         sessionFactory.setDataSource(mainDataSource);
-        //分页插件
+        //分页插件1
         PageHelper pageHelper = new PageHelper();
         Properties properties = new Properties();
         properties.setProperty("dialect", "mysql");
