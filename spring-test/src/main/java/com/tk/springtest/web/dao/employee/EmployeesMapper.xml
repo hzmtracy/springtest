@@ -2,7 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.tk.springtest.web.dao.employee.EmployeesMapper">
     <select id="findEmployees" resultType="com.tk.springtest.web.po.Employee">
-        SELECT emp_no as empNo
-          from employees
+        SELECT emp_no AS empNo,
+               first_name AS firstName,
+               last_name AS lastName
+          FROM employees
     </select>
 </mapper>

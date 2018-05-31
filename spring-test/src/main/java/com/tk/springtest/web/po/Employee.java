@@ -15,6 +15,6 @@ public class Employee {
     private String firstName;
     private String lastName;
     private Date hireDate;
-    private GenderEnums gender;
+    private Enum gender;
 
 }

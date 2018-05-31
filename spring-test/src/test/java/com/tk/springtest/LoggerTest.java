@@ -9,7 +9,7 @@ public class LoggerTest {
 
     @Test
     public  void test(){
-        System.out.println("1");
+        System.out.println("2");
         logger.info("info...");
         logger.debug("debug...");
         logger.error("error...");
