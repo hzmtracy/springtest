@@ -20,6 +20,8 @@
 
     <modules>
         <module>spring-test</module>
+        <module>other-tools</module>
+        <module>spring-aop</module>
     </modules>
 
     <dependencyManagement>
@@ -80,11 +82,11 @@
                 <artifactId>pagehelper</artifactId>
                 <version>4.1.6</version>
             </dependency>
-            <dependency>
-                <groupId>com.github.jsqlparser</groupId>
-                <artifactId>jsqlparser</artifactId>
-                <version>0.9.4</version>
-            </dependency>
+            <!--<dependency>-->
+            <!--<groupId>com.github.jsqlparser</groupId>-->
+            <!--<artifactId>jsqlparser</artifactId>-->
+            <!--<version>0.9.4</version>-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>io.springfox</groupId>
